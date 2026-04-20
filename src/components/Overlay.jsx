@@ -30,7 +30,7 @@ export default function Overlay({ gameState, elapsed, formatTime, onRestart }) {
   if (gameState === "cleared") {
     return (
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-white">
-        <div className="text-2xl font-bold text-gray-800 tracking-wide">
+        <div className="text-2xl font-bold text-green-500 tracking-wide">
           ALL CLEARED
         </div>
         <div className="text-lg text-gray-700">{formatTime(elapsed)}</div>
